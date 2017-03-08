@@ -61,7 +61,7 @@ def generate_less(data):
   d.append('Ionicons, v%s' % (font_version) );
   d.append('Created by Ben Sperry for the Ionic Framework, http://ionicons.com/');
   d.append('https://twitter.com/benjsperry  https://twitter.com/ionicframework');
-  d.append('MIT License: https://github.com/driftyco/ionicons');
+  d.append('MIT License: https://github.com/magma-labs/ionicons');
   d.append('*/');
   d.append('// Ionicons Variables')
   d.append('// --------------------------\n')
@@ -208,7 +208,7 @@ def generate_component_json(data):
   print "Generate component.json"
   d = {
     "name": data['name'],
-    "repo": "driftyco/ionicons",
+    "repo": "magma-labs/ionicons",
     "description": "The premium icon font for Ionic Framework.",
     "version": data['version'],
     "keywords": [],
@@ -236,7 +236,7 @@ def generate_component_json(data):
 def generate_composer_json(data):
   print "Generate composer.json"
   d = {
-    "name": "driftyco/ionicons",
+    "name": "magma-labs/ionicons",
     "description": "The premium icon font for Ionic Framework.",
     "keywords": [ "fonts", "icon font", "icons", "ionic", "web font"],
     "homepage": "http://ionicons.com/",
@@ -276,7 +276,7 @@ def generate_bower_json(data):
   d = {
     "name": data['name'],
     "version": data['version'],
-    "homepage": "https://github.com/driftyco/ionicons",
+    "homepage": "https://github.com/magma-labs/ionicons",
     "authors": [
       "Ben Sperry <ben@drifty.com>",
       "Adam Bradley <adam@drifty.com>",
